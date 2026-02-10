@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Happy Valentine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <header class="hero">
+    <h1 class="title">Happy Valentine <span class="emoji">💖</span></h1>
+    <p class="subtitle">Aku punya sesuatu buat kamu…</p>
+    <button id="revealBtn" class="btn">Klik Aku 💌</button>
+  </header>
+
+  <main>
+    <section class="message-area" id="messageArea" aria-live="polite"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true" role="dialog">
+    <div class="modal-panel">
+      <button id="modalClose" class="modal-close" aria-label="Tutup">×</button>
+      <h2 class="modal-title">Untukmu</h2>
+      <p class="modal-text">Makasih ya udah bikin hari-hariku lebih seru 💕</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
